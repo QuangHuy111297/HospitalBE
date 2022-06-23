@@ -22,6 +22,10 @@ const customizeConfig = {
       rejectUnauthorized: false,
     },
   },
+  query: {
+    raw: true,
+  },
+  timezone: '+07:00',
 }
 
 sequelize = new Sequelize(

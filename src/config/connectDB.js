@@ -16,6 +16,10 @@ const sequelize = new Sequelize(
         rejectUnauthorized: false,
       },
     },
+    query: {
+      raw: true,
+    },
+    timezone: '+07:00',
   }
 )
 
